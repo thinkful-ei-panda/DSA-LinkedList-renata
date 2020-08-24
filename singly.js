@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-const LinkedList = require('./DSA-Linkedlist');
+const LinkedList = require('./linked-lists');
 
 function main(arr) {
   const SLL = new LinkedList;
@@ -37,3 +37,5 @@ function WhatDoesThisProgramDo(lst) {
     current = current.next;
   }
 }
+
+WhatDoesThisProgramDo();
